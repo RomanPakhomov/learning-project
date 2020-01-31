@@ -1,0 +1,173 @@
+a{
+  color: #000 !important;
+}
+.main-logo-wrap{
+  flex-grow: 1;
+}
+.main-logo{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 65px;
+  background-image: url(../img/main-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.story-content{
+  white-space: pre-line
+}
+.comment-input-block{
+  margin-bottom:15px !important;
+}
+.comments{
+  .comment:last-child{
+    margin-bottom: 20px;
+    .MuiDivider-root{
+      display: none
+    }
+  }
+  .comment-body{
+    align-items: unset !important;
+    .comment-avatar{
+      margin-top:15px;
+    }
+    .comment-header{
+      display:flex;
+      .comment-autor{
+        flex-grow: 1;
+      }
+      p{
+        display: flexbox;
+      }
+      .comment-time{
+        font-size: 0.7rem
+      }
+    }
+  }
+}
+.user-story-body{
+  margin-bottom: 15px;
+  .user-story-content{
+    max-height: 190px;
+    font-size: 0.8rem;
+    overflow: hidden;
+    color: #888;
+    font-weight: 100 !important;
+  }
+}
+
+.MuiCardMedia-root{
+  height: 180px;
+}
+
+.MuiCard-root{
+  margin-bottom: 20px;
+}
+
+.login{
+  width: 250px !important;
+  text-align: center;
+  .MuiTextField-root{
+    margin-bottom:20px;
+  }
+}
+
+.registration{
+  width: 300px !important;
+  text-align: center;
+  .MuiTextField-root{
+    margin-bottom:20px;
+    width:100%;
+  }
+}
+
+.change-user{
+  .change-user-input-block{
+    margin-bottom:20px;
+  }
+}
+
+.snackbar-error{
+  border-radius: 4px;
+  div{
+    color: #fff;
+    font-weight: 500;
+    background-color: #f44336;
+  }
+}
+
+.snackbar-success{
+  border-radius: 4px;
+  div{
+    color: #fff;
+    font-weight: 500;
+    background-color: #4caf50;
+  }
+}
+
+.user-sidebar{
+  .MuiListItemIcon-root{
+    min-width: 38px !important;
+  }
+  .MuiTypography-root{
+    font-size: 0.8rem !important;
+  }
+}
+
+.info-card{
+  color: #fff !important;
+  font-weight: 500;
+  background-color: #2196f3 !important;
+  padding: 25px;
+}
+
+footer{
+  margin-top:40px;
+}
+
+a{
+  text-decoration: none;
+}
+.error{
+  padding: 10px 20px;
+  background-color: #f55a4e !important;
+  color: #fff !important;
+  margin-bottom:15px;
+}
+
+.add-story{
+  .story-input-block{
+    margin-bottom:20px;
+  }
+}
+
+.MuiExpansionPanelSummary-content{
+  display: block !important;
+}
+
+.expansion-panel{
+  display: block !important;
+
+  .expansion-button{
+    margin: 10px;
+  }
+}
+
+html,
+body {
+	height: 100%;
+}
+
+#app{
+  display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
